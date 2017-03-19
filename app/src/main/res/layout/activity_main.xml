@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Запустить/Остановить"
-        android:id="@+id/btnBotStart"
+        android:id="@+id/btnBotOnOff"
         android:layout_marginTop="31dp"
         android:layout_below="@+id/tvBotName"
         android:layout_centerHorizontal="true" />
@@ -33,7 +33,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="остановлен"
         android:id="@+id/tvBotStatus"
-        android:layout_above="@+id/btnBotStart"
-        android:layout_alignEnd="@+id/btnBotStart" />
+        android:layout_above="@+id/btnBotOnOff"
+        android:layout_alignEnd="@+id/btnBotOnOff" />
 
 </RelativeLayout>
