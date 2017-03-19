@@ -31,6 +31,10 @@
         </activity>
         <!-- Receivers -->
         <!-- Services -->
+        <service
+            android:name=".bot.BotService"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>
